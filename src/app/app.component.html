@@ -1,0 +1,22 @@
+<div class="app-view">
+  <div class="app-header">
+    <img src="twit.jpg" alt="Logo"/>
+    <h4>Twitter Details</h4>
+  </div>
+  <div class="app-body">
+    <div class="row">
+      <div class="col-sm-2 left-pane">
+        <div class="link-view">
+          <a (click)="refreshTrendingTopics()">Topics<span class="glyphicon glyphicon-refresh"></span></a>
+          <a>Tweets</a>
+        </div>
+        <div class="topics-view">
+          <app-twitter-topics></app-twitter-topics>
+        </div>
+      </div>
+      <div class="col-sm-10 right-pane">
+        <app-tweet-content></app-tweet-content>
+      </div>
+    </div>
+  </div>
+</div>

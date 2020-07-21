@@ -1,0 +1,61 @@
+.app-view {
+    height: 100%;
+    width: 100%;
+    .app-header {
+        height: 10%;
+        background-color: cadetblue;
+        display: flex;
+        img {
+            height: 100%;
+            width: 5%;
+        }
+        h4 {
+            margin: 15px;
+            font-size: 25px;
+        }
+
+    }
+    .app-body {
+        height: 90%;
+        padding: 0;
+        margin: 0;
+        .row {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            .left-pane {
+                height: 100%;
+                .link-view {
+                    height: 60px;
+                    padding-top: 20px;
+                    a {
+                        padding: 10px 15px 10px 15px;
+                        text-decoration: none;
+                        background: aliceblue;
+                        border-radius: 5px;
+                        span {
+                            padding-left: 5px
+                        }
+                    }
+                    a:first-child {
+                        margin-right: 5px;
+
+                    }
+                    a:hover {
+                        background-color: darkcyan;
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+                .topics-view {
+                    height: calc(100% - 60px);
+                }
+            }
+            .right-pane {
+                height: 100%;
+            }
+        }
+    }
+    
+}
+ 

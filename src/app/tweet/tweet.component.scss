@@ -1,0 +1,21 @@
+.tweet-view {
+    height: 120px;
+    padding: 20px;
+    line-height: 1.5;
+    p {
+        margin: 0;
+    }
+    .tweet-link {
+        font-size: 20px;
+        color: #1a0dab;
+        cursor: pointer;
+    }
+    .tweet-link:hover {
+        color: #609;
+        text-decoration: 1px solid #1a0dab;
+    }
+    
+    .tweet-create {
+        float: left;
+    }
+}

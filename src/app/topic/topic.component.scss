@@ -1,0 +1,19 @@
+
+.topic {
+    height: 50px;
+    padding: 0;
+    padding-top: 5px;
+    line-height: 1;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(230, 236, 240);
+    .topic-name {
+        font-weight: bold;
+    }
+    .topic-count {
+        color: rgb(101, 119, 134);
+    }
+}
+.topic:hover {
+   background-color: aliceblue;
+   cursor: pointer;
+}
